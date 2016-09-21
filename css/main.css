@@ -1,3 +1,8 @@
 html {
 	background-color: #34d9c3;
 }
+
+
+svg path {
+	stroke: none;
+}
