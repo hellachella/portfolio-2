@@ -27,7 +27,7 @@ h1{
 	padding-left: 0;
 }
 .content ul li {
-	display:inline;
+		list-style: none;
 		font-family: 'Montserrat', serif;
 		font-size: .875em;
 }
@@ -112,15 +112,19 @@ transform: translateY(-70px);
 
 
 
-@media only screen and (max-width: 60em) {
+@media only screen and (min-width: 60em) {
 
-	.content ul li{
-		display: block;
+
+	.baby svg {
+		transform: scale(1) translateX(80px);
 	}
 
-
-.baby svg {
-	transform: scale(1);
+			.content ul li{
+		display: inline;
+	}
 }
 
-}
+
+
+
+
