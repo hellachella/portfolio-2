@@ -1,79 +1,66 @@
-html {
-	background-color: #08262c;
+@viewport { width: device-width; scale: 1; }
+
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
+
+html {
+	font-family: 'Rasa', serif;
+	 box-sizing: border-box;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.grey {
+	background-color: lightgrey;
+}
+
+
 
 
 svg path {
 	stroke: none;
 }
-.container {
-	position: relative;
+
+.cord {
+	transform: translateY(-70px);
 }
 
-.baby {
-	position: absolute;
-	top: -40px;
-	left: 1em;
-
-}
-
-svg {
-	position: relative;
-	transform: scale(1.2);
-}
 
 .art {
-	position: absolute;
-  animation: floaty 20000ms alternate infinite ease-in-out;
+
+transform: translateY(-70px);
+  animation: floaty 15000ms alternate infinite ease-in-out;
 }
 
 @keyframes floaty {
 
 
   0% {
-    transform: translateY(-10px);
+    transform: translateY(-75px) translateX(-2px);
   }
 
 
-  15% {
-    transform: translateY(8px);
-  }
-
-
-  30% {
-    transform: translateX(5px) scale(.97);
-  }
-
-  42% {
-  	transform: rotate(-2deg);
-    transform-origin: top right;
-
-  }
 
   50% {
-    transform: translateX(-5px) rotate(2deg) scale(1.05);
-    transform-origin: top right;
-
+    transform: translateY(-80px) translateX(-7px) ;
   }
 
-  65% {
-    transform: translateY(-8px);
+   60% {
+    transform: translateY(-74px) translateX(-9px);
   }
 
-   72% {
-  	transform: rotate(-4deg);
-    transform-origin: top right;
-  }
-
-  80% {
-    transform: translateY(10px);
-  }
 
   100% {
-    transform: translateY(-10px) scale(1) rotate(-2deg);
+    transform: translateY(-80px) translateX(4px) rotate(-4deg);
+    transform-origin: top right;
   }
 }
 
-}
+
+
 
 
