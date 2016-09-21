@@ -116,6 +116,11 @@ transform: translateY(-70px);
 
 	.content ul li{
 		display: block;
-		padding: 0;
 	}
+
+
+.baby svg {
+	transform: scale(1);
+}
+
 }
