@@ -133,3 +133,26 @@ transform: translateY(-70px);
 
 
 
+.ball {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  background-color: white;
+  border-radius: 50px;
+  opacity: .5;
+   animation: bubbleup 2000ms forwards ease-in;
+
+}
+
+@keyframes bubbleup {
+	0% {
+		top:200px;
+		left: 200px;
+	}
+
+	100% {
+		top:-200px;
+	}
+}
