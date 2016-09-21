@@ -18,10 +18,19 @@ h1{
 }
 
 .content {
-	margin-top: 1em;
+	margin-top: 2em;
 	border-left: 1px dashed #fff;
 }
 
+.content ul {
+	display:block;
+	padding-left: 0;
+}
+.content ul li {
+	display:inline;
+		font-family: 'Montserrat', serif;
+		font-size: .875em;
+}
 
 .email{
 	font-family: 'Montserrat', serif;
@@ -103,3 +112,10 @@ transform: translateY(-70px);
 
 
 
+@media only screen and (max-width: 60em) {
+
+	.content ul li{
+		display: block;
+		padding: 0;
+	}
+}
