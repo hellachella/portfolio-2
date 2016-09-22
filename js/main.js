@@ -9,5 +9,4 @@ $baby.on('click', function () {
   $newBall.css('left', Math.random() * 500);
   $newBall.css('top', Math.random() * 1000);
 
-
 });
