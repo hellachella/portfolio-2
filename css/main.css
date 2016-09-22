@@ -40,6 +40,7 @@ h1{
 .content a {
 	text-decoration: none;
 	color: #fff;
+	transition: all 200ms ease;
 }
 
 a:hover {
